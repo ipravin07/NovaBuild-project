@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="../CSS/login.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Login</h2>
+
+        <form id="loginForm">
+            <div class="input-group">
+                <label>Email</label>
+                <input type="text" id="email">
+                <div class="error" id="emailError"></div>
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" id="password">
+                <div class="error" id="passwordError"></div>
+            </div>
+
+            <button type="submit">Login</button>
+            
+            <div class="success" id="successMsg"></div>
+            <div style="text-align:right; margin-top:10px;">
+    <a href="fpass.html" >
+        Forgot Password?
+    </a>
+</div>
+        </form>
+        <center>
+            <a href="../index.html" class="page">Back to Home Page</a>
+        </center>
+        
+    </div>
+
+    <script src="../JS/login.js"></script>
+</body>
+</html>
