@@ -129,6 +129,7 @@ img{
   border-color: var(--border);
 }
 .nav-logo{
+  user-select:none;
   font-family: var(--font-head);
   font-size: 1.25rem;
   font-weight: 800;
